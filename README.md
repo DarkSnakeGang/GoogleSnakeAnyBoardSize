@@ -12,6 +12,7 @@ snake.size({
   lightSquares: '#rrggbb', // hex code, the color of light squares if you're using a non-dark custom scheme (optional)
   darkSquares:  '#rrggbb', // hex code, the color of dark squares if you're using a non-dark custom scheme (optional)
 });
+```
 
 ## Contributors
   * Fishes
