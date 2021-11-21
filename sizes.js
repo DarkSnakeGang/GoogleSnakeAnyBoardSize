@@ -6,7 +6,7 @@ snake.size = function(settings = {}) {
   let squareSize = 600 / settings.width;
   if(squareSize * settings.height > 530)
     squareSize = 530 / settings.height;
-
+  squareSize = ~~(squareSize * .95);
 
   const scripts = document.getElementsByTagName('script');
   for(let script of scripts) {
