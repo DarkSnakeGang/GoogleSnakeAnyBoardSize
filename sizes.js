@@ -55,3 +55,4 @@ snake.size = function(settings = {}) {
     req.send();
   }
 };
+</html>
